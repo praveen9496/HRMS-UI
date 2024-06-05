@@ -1,0 +1,71 @@
+{
+  "name": "react_dleohr",
+  "version": "0.1.0",
+  "homepage": "/",
+  "private": true,
+  "dependencies": {
+    "@fullcalendar/daygrid": "^5.3.2",
+    "@fullcalendar/interaction": "^5.3.1",
+    "@fullcalendar/react": "^5.3.1",
+    "@fullcalendar/timegrid": "^5.3.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "antd": "^4.6.3",
+    "axios": "^1.7.1",
+    "bootstrap": "^4.5.2",
+    "chart.js": "^2.9.3",
+    "font-awesome": "^4.7.0",
+    "fullcalendar": "^5.3.2",
+    "jquery": "^3.5.1",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.3.0",
+    "react-chartjs-2": "^2.10.0",
+    "react-custom-scrollbars": "^4.2.1",
+    "react-data-table-component": "^6.11.0",
+    "react-datepicker": "^3.1.3",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.3.4",
+    "react-scripts": "3.4.3",
+    "react-select": "^3.1.0",
+    "styled-components": "^5.1.1"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --mode development --inline --progress",
+    "build": "webpack --mode production",
+    "dev": "webpack-dev-server",
+    "production": "webpack --mode production"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "file-loader": "^6.1.0",
+    "html-loader": "^1.3.0",
+    "html-webpack-plugin": "^4.4.1",
+    "mini-css-extract-plugin": "^0.11.2",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "url-loader": "^4.1.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}

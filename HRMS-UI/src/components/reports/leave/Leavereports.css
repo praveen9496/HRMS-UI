@@ -1,0 +1,119 @@
+.inner-wrapper {
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .profile-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .date-range {
+    font-size: 14px;
+    color: #6c757d;
+  }
+  
+  .apply-leave {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+  }
+  
+  .main-content {
+    padding: 20px;
+  }
+  
+  .leave-summary {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .leave-card {
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 20px;
+    width: 48%;
+    text-align: center;
+  }
+  
+  .leave-type {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .leave-available,
+  .leave-booked {
+    font-size: 14px;
+    color: #6c757d;
+  }
+  
+  .leave-history {
+    margin-bottom: 20px;
+  }
+  
+  .leave-list {
+    margin-bottom: 20px;
+  }
+  
+  .leave-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .leave-tabs {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .leave-tabs .btn {
+    width: 48%;
+  }
+  
+  .card {
+    margin-bottom: 20px;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .table-avatar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .table-avatar img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .button-1 {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+  }
+  
